@@ -17,7 +17,7 @@
 }
 html, body{
     min-height: 100vh;
-    background-color: cyan;
+    background-color: white;
     font-family: var(--fonte1);
 }
 
@@ -68,10 +68,17 @@ section.normal{
     color: #000;
 }
 
+#diferente{
+    font-size: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fonte3);
+}
+
 section.imagem{
     background-color: darkgreen;
     color: white;
-    box-shadow: inset 6px 13px 0px black;
+    box-shadow: inset 5px 5px 10px 0px black;
     background-attachment: fixed;
    
 }
